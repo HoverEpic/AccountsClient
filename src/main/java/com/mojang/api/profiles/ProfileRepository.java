@@ -1,5 +1,7 @@
 package com.mojang.api.profiles;
 
-public interface ProfileRepository {
-    public Profile[] findProfilesByNames(String... names);
+public interface ProfileRepository
+{
+
+    Profile[] findProfilesByCriteria(ProfileCriteria... var1);
 }

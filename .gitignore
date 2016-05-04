@@ -13,3 +13,4 @@ user.gradle
 logs/
 /*.ids
 *.log
+target/AccountsClient-1.0.jar

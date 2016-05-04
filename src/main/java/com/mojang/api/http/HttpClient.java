@@ -5,7 +5,10 @@ import java.net.Proxy;
 import java.net.URL;
 import java.util.List;
 
-public interface HttpClient {
-    public String post(URL url, HttpBody body, List<HttpHeader> headers) throws IOException;
-    public String post(URL url, Proxy proxy, HttpBody body, List<HttpHeader> headers) throws IOException;
+public interface HttpClient
+{
+
+    String post(URL var1, HttpBody var2, List var3) throws IOException;
+
+    String post(URL var1, Proxy var2, HttpBody var3, List var4) throws IOException;
 }
